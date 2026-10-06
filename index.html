@@ -4,26 +4,27 @@
 <head>
     <meta charset="UTF-8">
 
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>حلا بابا كنافة | أشهى الحلويات في جرش</title>
+    <title>حلا بابا كنافة | كنافة وحلويات في جرش</title>
 
     <meta name="description"
-        content="محلات حلا بابا كنافة في جرش - كنافة وحلويات وبقلاوة وتشكيلة متنوعة من الحلويات حسب الطلب.">
+        content="حلا بابا كنافة - كنافة وحلويات مميزة في جرش. تشكيلة من الكنافة والبقلاوة والحلويات والبوكسات حسب الطلب.">
 
     <meta name="keywords"
-        content="حلا بابا كنافة, كنافة جرش, حلويات جرش, بقلاوة جرش, حلويات في جرش">
+        content="حلا بابا كنافة, كنافة جرش, حلويات جرش, بقلاوة جرش, حلويات, كنافة">
 
-    <meta name="theme-color" content="#0b0806">
+    <meta name="theme-color" content="#0b0907">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet"
+    <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
@@ -31,147 +32,924 @@
 
 <body>
 
-    <!-- =========================
-         HEADER
-    ========================== -->
+<!-- =====================================================
+     HEADER
+===================================================== -->
 
-    <header class="header" id="header">
+<header class="header" id="header">
 
-        <div class="container nav-container">
+    <div class="container nav-container">
 
-            <a href="#home" class="logo">
-                <span class="logo-main">حلا بابا</span>
-                <span class="logo-sub">كنافة</span>
-            </a>
+        <a href="#home" class="logo">
 
-            <nav class="nav" id="nav">
+            <span class="logo-main">حلا بابا</span>
 
-                <a href="#home" class="nav-link active">
-                    الرئيسية
-                </a>
+            <span class="logo-sub">
+                كنافة وحلويات
+            </span>
 
-                <a href="#about" class="nav-link">
-                    من نحن
-                </a>
+        </a>
 
-                <a href="#products" class="nav-link">
-                    منتجاتنا
-                </a>
+        <nav class="nav" id="nav">
 
-                <a href="#gallery" class="nav-link">
-                    الصور
-                </a>
+            <a href="#home">الرئيسية</a>
 
-                <a href="#contact" class="nav-link">
-                    تواصل معنا
-                </a>
+            <a href="#about">عنّا</a>
 
-            </nav>
+            <a href="#products">حلوياتنا</a>
 
-            <a href="https://wa.me/962786279818"
-                class="nav-whatsapp"
-                target="_blank">
+            <a href="#gallery">المعرض</a>
+
+            <a href="#contact">تواصل معنا</a>
+
+            <a
+                href="https://wa.me/962786279818"
+                target="_blank"
+                class="nav-order">
 
                 <i class="fa-brands fa-whatsapp"></i>
 
-                <span>اطلب الآن</span>
+                اطلب الآن
 
             </a>
 
-            <button class="menu-toggle"
-                id="menuToggle"
-                aria-label="فتح القائمة">
+        </nav>
 
-                <i class="fa-solid fa-bars"></i>
+        <button class="menu-btn" id="menuBtn">
 
-            </button>
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-video">
+
+        <video
+            autoplay
+            muted
+            loop
+            playsinline
+            poster="images/hero.jpg">
+
+            <source
+                src="images/hero-video.mp4"
+                type="video/mp4">
+
+        </video>
+
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-glow"></div>
+
+    <div class="container hero-container">
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+
+                <span></span>
+
+                أهلاً بكم في حلا بابا كنافة
+
+                <span></span>
+
+            </div>
+
+            <h1>
+
+                الحلا الحقيقي
+                <br>
+
+                <em>يبدأ من هنا</em>
+
+            </h1>
+
+            <p>
+
+                كنافة وحلويات بطعم أصيل،
+                تفاصيل جميلة،
+                وتجربة تستحق أن تعيشها.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#products"
+                    class="btn btn-gold">
+
+                    اكتشف حلوياتنا
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                </a>
+
+                <a
+                    href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الحلويات والطلبات"
+                    target="_blank"
+                    class="btn btn-glass">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    اطلب عبر واتساب
+
+                </a>
+
+            </div>
+
+            <div class="hero-details">
+
+                <div>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <span>جرش - الأردن</span>
+
+                </div>
+
+                <div>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>0786279818</span>
+
+                </div>
+
+            </div>
 
         </div>
 
-    </header>
+
+        <div class="hero-visual">
+
+            <div class="circle-decoration circle-one"></div>
+
+            <div class="circle-decoration circle-two"></div>
+
+            <div class="hero-image">
+
+                <img
+                    src="images/hero.jpg"
+                    alt="حلا بابا كنافة">
+
+            </div>
+
+            <div class="hero-stamp">
+
+                <i class="fa-solid fa-crown"></i>
+
+                <span>
+                    حلا بابا
+                    <small>كنافة وحلويات</small>
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-scroll">
+
+        <span>اكتشف المزيد</span>
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </div>
+
+</section>
 
 
-    <main>
+<!-- =====================================================
+     INTRO
+===================================================== -->
 
-        <!-- =========================
-             HERO
-        ========================== -->
+<section class="intro section" id="about">
 
-        <section class="hero" id="home">
+    <div class="container">
 
-            <!-- صورة الخلفية -->
-            <div class="hero-background"></div>
+        <div class="intro-grid">
 
-            <!-- طبقة التعتيم -->
-            <div class="hero-overlay"></div>
+            <div class="intro-image reveal">
 
-            <!-- زخرفة ذهبية -->
-            <div class="hero-glow hero-glow-one"></div>
-            <div class="hero-glow hero-glow-two"></div>
+                <div class="image-frame">
 
-            <div class="container hero-container">
+                    <img
+                        src="images/sweets.jpg"
+                        alt="حلويات حلا بابا">
 
-                <!-- النص -->
-                <div class="hero-content reveal">
+                </div>
 
-                    <span class="hero-badge">
-                        <i class="fa-solid fa-crown"></i>
+                <div class="experience-badge">
+
+                    <strong>حلا</strong>
+
+                    <span>يصنع الذكريات</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="intro-content reveal">
+
+                <span class="section-label">
+                    قصتنا مع الحلا
+                </span>
+
+                <h2>
+                    أكثر من مجرد
+                    <strong>حلويات</strong>
+                </h2>
+
+                <p>
+                    في حلا بابا كنافة، نؤمن أن قطعة الحلو
+                    ليست مجرد طعام، بل لحظة جميلة تجمع
+                    الناس وتكمل المناسبات.
+                </p>
+
+                <p>
+                    لذلك نهتم بالشكل والطعم والتفاصيل
+                    لنقدم لكم تجربة تليق بلحظاتكم الجميلة.
+                </p>
+
+                <div class="intro-features">
+
+                    <div>
+                        <i class="fa-solid fa-star"></i>
+                        <span>طعم مميز</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                        <span>نصنعها بحب</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-gift"></i>
+                        <span>لجميع المناسبات</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FEATURE STRIP
+===================================================== -->
+
+<section class="feature-strip">
+
+    <div class="container feature-grid">
+
+        <div class="feature-item reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-cookie-bite"></i>
+            </div>
+
+            <div>
+                <h3>تشكيلة مميزة</h3>
+                <p>خيارات متنوعة لعشاق الحلا</p>
+            </div>
+
+        </div>
+
+        <div class="feature-item reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <div>
+                <h3>طعم يحبه الجميع</h3>
+                <p>نهتم بكل تفصيلة</p>
+            </div>
+
+        </div>
+
+        <div class="feature-item reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-box-open"></i>
+            </div>
+
+            <div>
+                <h3>حسب الطلب</h3>
+                <p>تجهيز يناسب مناسبتك</p>
+            </div>
+
+        </div>
+
+        <div class="feature-item reveal">
+
+            <div class="feature-icon">
+                <i class="fa-solid fa-gift"></i>
+            </div>
+
+            <div>
+                <h3>للمناسبات</h3>
+                <p>اجعل مناسبتك أحلى</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PRODUCTS
+===================================================== -->
+
+<section class="products section" id="products">
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <span class="section-label">
+                اختياراتنا
+            </span>
+
+            <h2>
+                حلا يفتح
+                <strong>النفس</strong>
+            </h2>
+
+            <p>
+                مجموعة من الأصناف التي يمكنك الاستفسار
+                عنها وتجهيزها حسب الطلب.
+            </p>
+
+        </div>
+
+
+        <div class="products-grid">
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/knafeh dish.jpg"
+                        alt="كنافة">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>كنافة</h3>
+
+                        <span>مميز</span>
+
+                    </div>
+
+                    <p>
+                        كنافة بطعم غني وشكل شهي،
+                        مناسبة للجلسات والمناسبات.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الكنافة"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/baklawa.jpg"
+                        alt="بقلاوة">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>بقلاوة</h3>
+
+                        <span>شرقي</span>
+
+                    </div>
+
+                    <p>
+                        تشكيلة من الحلويات الشرقية
+                        لمحبي الطعم الغني.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن البقلاوة"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/sweets.jpg"
+                        alt="تشكيلة حلويات">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>تشكيلة حلويات</h3>
+
+                        <span>متنوع</span>
+
+                    </div>
+
+                    <p>
+                        تشكيلة متنوعة تناسب الزيارات
+                        والتجمعات والمناسبات.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن تشكيلة الحلويات"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/sweets box.jpg"
+                        alt="بوكس حلويات">
+
+                    <span class="product-number">
+                        04
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>بوكس حلويات</h3>
+
+                        <span>هدية</span>
+
+                    </div>
+
+                    <p>
+                        بوكس مرتب وجميل للهدايا
+                        والزيارات والمناسبات.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن بوكس الحلويات"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/turkish cake.jpg"
+                        alt="كيك تركي">
+
+                    <span class="product-number">
+                        05
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>كيك تركي</h3>
+
+                        <span>مميز</span>
+
+                    </div>
+
+                    <p>
+                        خيار جميل لمحبي الكيك
+                        والحلويات الناعمة.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الكيك التركي"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <article class="product-card reveal">
+
+                <div class="product-image">
+
+                    <img
+                        src="images/knafeh.jpg"
+                        alt="صينية كنافة">
+
+                    <span class="product-number">
+                        06
+                    </span>
+
+                </div>
+
+                <div class="product-body">
+
+                    <div class="product-title">
+
+                        <h3>صينية كنافة</h3>
+
+                        <span>للمناسبات</span>
+
+                    </div>
+
+                    <p>
+                        خيار مناسب للتجمعات والمناسبات
+                        والطلبات الكبيرة.
+                    </p>
+
+                    <div class="product-footer">
+
+                        <small>حسب الطلب</small>
+
+                        <a
+                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن صينية الكنافة"
+                            target="_blank">
+
+                            اطلب
+
+                            <i class="fa-solid fa-arrow-left"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GOLD CTA
+===================================================== -->
+
+<section class="gold-cta">
+
+    <div class="container">
+
+        <div class="gold-cta-inner reveal">
+
+            <div>
+
+                <span>
+                    لأن اللحظات الجميلة تستحق الحلا
+                </span>
+
+                <h2>
+                    جاهز تخلي مناسبتك
+                    <strong>أحلى؟</strong>
+                </h2>
+
+            </div>
+
+            <a
+                href="https://wa.me/962786279818?text=مرحباً، أريد طلب حلويات من حلا بابا كنافة"
+                target="_blank"
+                class="dark-button">
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                تواصل معنا
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     GALLERY
+===================================================== -->
+
+<section class="gallery section" id="gallery">
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <span class="section-label">
+                من عالمنا
+            </span>
+
+            <h2>
+                تفاصيل
+                <strong>تفتح النفس</strong>
+            </h2>
+
+            <p>
+                بعض الصور من عالم حلا بابا كنافة.
+            </p>
+
+        </div>
+
+
+        <div class="gallery-grid">
+
+            <div class="gallery-item gallery-large reveal">
+
+                <img
+                    src="images/hero.jpg"
+                    alt="حلا بابا كنافة">
+
+                <div class="gallery-caption">
+                    حلا بابا كنافة
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="images/knafeh.jpg"
+                    alt="كنافة">
+
+                <div class="gallery-caption">
+                    كنافة
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="images/baklawa.jpg"
+                    alt="بقلاوة">
+
+                <div class="gallery-caption">
+                    بقلاوة
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="images/sweets.jpg"
+                    alt="حلويات">
+
+                <div class="gallery-caption">
+                    حلويات
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="images/sweets box.jpg"
+                    alt="بوكس حلويات">
+
+                <div class="gallery-caption">
+                    بوكسات
+                </div>
+
+            </div>
+
+
+            <div class="gallery-item reveal">
+
+                <img
+                    src="images/storefront.jpg"
+                    alt="محل حلا بابا كنافة">
+
+                <div class="gallery-caption">
+                    حلا بابا
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact section" id="contact">
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <span class="section-label">
+                تواصل معنا
+            </span>
+
+            <h2>
+                تعالوا
+                <strong>نحليها سوا</strong>
+            </h2>
+
+            <p>
+                للاستفسار عن الطلبات أو معرفة التفاصيل،
+                تواصل معنا مباشرة.
+            </p>
+
+        </div>
+
+
+        <div class="contact-layout">
+
+
+            <div class="contact-card reveal">
+
+                <div class="contact-card-top">
+
+                    <span>
                         حلا بابا كنافة
                     </span>
 
-                    <h1>
-                        الحلا الحقيقي
-                        <span>يبدأ من هنا</span>
-                    </h1>
+                    <i class="fa-solid fa-crown"></i>
 
-                    <p>
-                        كنافة وحلويات بطعم يليق بلحظاتك الجميلة،
-                        بتشكيلة متنوعة وتجهيز حسب الطلب في جرش.
-                    </p>
+                </div>
 
-                    <div class="hero-buttons">
 
-                        <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الحلويات والطلبات."
-                            class="btn btn-primary"
-                            target="_blank">
+                <div class="contact-list">
 
-                            <i class="fa-brands fa-whatsapp"></i>
-                            اطلب عبر واتساب
 
-                        </a>
+                    <div class="contact-row">
 
-                        <a href="#products"
-                            class="btn btn-outline">
-
-                            اكتشف منتجاتنا
-                            <i class="fa-solid fa-arrow-down"></i>
-
-                        </a>
-
-                    </div>
-
-                    <div class="hero-info">
-
-                        <div class="hero-info-item">
-
+                        <div class="contact-row-icon">
                             <i class="fa-solid fa-location-dot"></i>
-
-                            <div>
-                                <strong>الموقع</strong>
-                                <span>جرش - الأردن</span>
-                            </div>
-
                         </div>
 
-                        <div class="hero-info-item">
+                        <div>
+                            <small>الموقع</small>
+                            <strong>جرش - الأردن</strong>
+                        </div>
 
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <div class="contact-row-icon">
                             <i class="fa-solid fa-phone"></i>
+                        </div>
 
-                            <div>
-                                <strong>للطلب والاستفسار</strong>
-                                <span dir="ltr">0786279818</span>
-                            </div>
+                        <div>
+                            <small>الهاتف</small>
+                            <strong>0786279818</strong>
+                        </div>
 
+                    </div>
+
+
+                    <div class="contact-row">
+
+                        <div class="contact-row-icon">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+
+                        <div>
+                            <small>واتساب</small>
+                            <strong>تواصل معنا مباشرة</strong>
                         </div>
 
                     </div>
@@ -179,745 +957,111 @@
                 </div>
 
 
-                <!-- الفيديو -->
-                <div class="hero-visual reveal">
+                <a
+                    href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن حلويات حلا بابا كنافة"
+                    target="_blank"
+                    class="whatsapp-button">
 
-                    <div class="hero-image">
+                    <i class="fa-brands fa-whatsapp"></i>
 
-                        <div class="hero-ring"></div>
+                    تواصل عبر واتساب
 
-                        <video
-                            autoplay
-                            muted
-                            loop
-                            playsinline
-                            poster="images/hero.jpg">
-
-                            <source
-                                src="images/hero-video.mp4"
-                                type="video/mp4">
-
-                            متصفحك لا يدعم تشغيل الفيديو.
-
-                        </video>
-
-                        <div class="video-shine"></div>
-
-                    </div>
-
-                </div>
+                </a>
 
             </div>
 
-            <div class="hero-scroll">
 
-                <span>اكتشف المزيد</span>
+            <div class="contact-photo reveal">
 
-                <i class="fa-solid fa-chevron-down"></i>
+                <img
+                    src="images/storefront.jpg"
+                    alt="محلات حلا بابا كنافة">
 
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             ABOUT
-        ========================== -->
-
-        <section class="section about" id="about">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <span class="section-label">
-                        <i class="fa-solid fa-sparkles"></i>
-                        لماذا حلا بابا؟
-                    </span>
-
-                    <h2>
-                        لأن التفاصيل الصغيرة
-                        <span>تصنع الفرق</span>
-                    </h2>
-
-                    <p>
-                        نحرص على تقديم تجربة حلوة تبدأ من شكل المنتج
-                        وتنتهي بالطعم الذي يبقى في الذاكرة.
-                    </p>
-
-                </div>
-
-
-                <div class="features-grid">
-
-                    <article class="feature-card reveal">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-cookie-bite"></i>
-                        </div>
-
-                        <h3>تشكيلة متنوعة</h3>
-
-                        <p>
-                            مجموعة متنوعة من الحلويات لتناسب
-                            مختلف الأذواق والمناسبات.
-                        </p>
-
-                    </article>
-
-
-                    <article class="feature-card reveal">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-heart"></i>
-                        </div>
-
-                        <h3>طعم يميزك</h3>
-
-                        <p>
-                            نهتم بالتفاصيل التي تجعل تجربة الحلويات
-                            أجمل وأكثر تميزًا.
-                        </p>
-
-                    </article>
-
-
-                    <article class="feature-card reveal">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-box-open"></i>
-                        </div>
-
-                        <h3>تجهيز حسب الطلب</h3>
-
-                        <p>
-                            يمكنك الاستفسار عن تجهيز الطلبات
-                            والكميات المناسبة لمناسبتك.
-                        </p>
-
-                    </article>
-
-
-                    <article class="feature-card reveal">
-
-                        <div class="feature-icon">
-                            <i class="fa-solid fa-gift"></i>
-                        </div>
-
-                        <h3>للمناسبات</h3>
-
-                        <p>
-                            خيارات مناسبة للزيارات والمناسبات
-                            واللحظات الجميلة.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             FEATURE BANNER
-        ========================== -->
-
-        <section class="luxury-banner">
-
-            <div class="container">
-
-                <div class="banner-content reveal">
+                <div class="photo-overlay">
 
                     <span>
-                        لحظاتك الحلوة تبدأ من هنا
+                        أهلاً وسهلاً بكم
                     </span>
-
-                    <h2>
-                        قطعة حلوى...
-                        <strong>وتكتمل اللحظة</strong>
-                    </h2>
-
-                    <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الطلبات."
-                        target="_blank"
-                        class="btn btn-primary">
-
-                        <i class="fa-brands fa-whatsapp"></i>
-                        تواصل معنا
-
-                    </a>
 
                 </div>
 
             </div>
 
-        </section>
+        </div>
 
 
-        <!-- =========================
-             PRODUCTS
-        ========================== -->
+        <!-- MAP -->
 
-        <section class="section products" id="products">
+        <div class="map-box reveal">
 
-            <div class="container">
+            <div class="map-header">
 
-                <div class="section-heading reveal">
+                <div>
 
                     <span class="section-label">
-                        <i class="fa-solid fa-cake-candles"></i>
-                        منتجاتنا
+                        موقعنا
                     </span>
 
-                    <h2>
-                        اختَر حلاك
-                        <span>المفضل</span>
-                    </h2>
-
-                    <p>
-                        تشكيلة من الحلويات التي يمكنك الاستفسار
-                        عنها والطلب حسب الكمية المناسبة لك.
-                    </p>
+                    <h3>
+                        زورونا في
+                        <strong>جرش</strong>
+                    </h3>
 
                 </div>
 
+                <a
+                    href="https://maps.app.goo.gl/1zqwoZfZrHPgeSa87"
+                    target="_blank"
+                    rel="noopener"
+                    class="map-open">
 
-                <div class="products-grid">
+                    <i class="fa-solid fa-location-arrow"></i>
 
-                    <!-- 1 -->
+                    فتح الخريطة
 
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/knafeh dish.jpg"
-                                alt="كنافة حلا بابا"
-                                loading="lazy">
-
-                            <span class="product-badge">
-                                مميز
-                            </span>
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                حلويات
-                            </span>
-
-                            <h3>كنافة</h3>
-
-                            <p>
-                                كنافة شهية مناسبة للزيارات
-                                والمناسبات.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد طلب كنافة."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- 2 -->
-
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/baklawa.jpg"
-                                alt="بقلاوة"
-                                loading="lazy">
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                حلويات
-                            </span>
-
-                            <h3>بقلاوة</h3>
-
-                            <p>
-                                تشكيلة بقلاوة بطابع فاخر
-                                ومناسب للتقديم.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد طلب بقلاوة."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- 3 -->
-
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/sweets.jpg"
-                                alt="تشكيلة حلويات"
-                                loading="lazy">
-
-                            <span class="product-badge">
-                                الأكثر تنوعًا
-                            </span>
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                تشكيلة
-                            </span>
-
-                            <h3>تشكيلة حلويات</h3>
-
-                            <p>
-                                مجموعة متنوعة لمحبي أكثر من
-                                نوع من الحلويات.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن تشكيلة الحلويات."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- 4 -->
-
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/sweets box.jpg"
-                                alt="بوكس حلويات"
-                                loading="lazy">
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                بوكسات
-                            </span>
-
-                            <h3>بوكس حلويات</h3>
-
-                            <p>
-                                خيار جميل للتقديم والهدايا
-                                والمناسبات.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن بوكس الحلويات."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- 5 -->
-
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/turkish cake.jpg"
-                                alt="كيك تركي"
-                                loading="lazy">
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                كيك
-                            </span>
-
-                            <h3>كيك تركي</h3>
-
-                            <p>
-                                خيار مميز لمحبي الكيك
-                                والحلويات المتنوعة.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الكيك التركي."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- 6 -->
-
-                    <article class="product-card reveal">
-
-                        <div class="product-image">
-
-                            <img src="images/knafeh.jpg"
-                                alt="صينية كنافة"
-                                loading="lazy">
-
-                            <span class="product-badge">
-                                مميز
-                            </span>
-
-                        </div>
-
-                        <div class="product-info">
-
-                            <span class="product-category">
-                                كنافة
-                            </span>
-
-                            <h3>صينية كنافة</h3>
-
-                            <p>
-                                خيار مناسب للتجمعات والمناسبات
-                                والطلبات الخاصة.
-                            </p>
-
-                            <div class="product-bottom">
-
-                                <strong>
-                                    حسب الطلب
-                                </strong>
-
-                                <a href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن صينية الكنافة."
-                                    target="_blank">
-
-                                    اطلب الآن
-                                    <i class="fa-solid fa-arrow-left"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
+                </a>
 
             </div>
 
-        </section>
 
+            <div class="map-frame">
 
-        <!-- =========================
-             GALLERY
-        ========================== -->
-
-        <section class="section gallery-section" id="gallery">
-
-            <div class="container">
-
-                <div class="section-heading reveal">
-
-                    <span class="section-label">
-                        <i class="fa-solid fa-camera"></i>
-                        من صورنا
-                    </span>
-
-                    <h2>
-                        جمال الحلو
-                        <span>في التفاصيل</span>
-                    </h2>
-
-                </div>
-
-
-                <div class="gallery-grid">
-
-                    <div class="gallery-item gallery-large reveal">
-                        <img src="images/hero.jpg"
-                            alt="حلويات حلا بابا"
-                            loading="lazy">
-                    </div>
-
-                    <div class="gallery-item reveal">
-                        <img src="images/knafeh.jpg"
-                            alt="كنافة"
-                            loading="lazy">
-                    </div>
-
-                    <div class="gallery-item reveal">
-                        <img src="images/baklawa.jpg"
-                            alt="بقلاوة"
-                            loading="lazy">
-                    </div>
-
-                    <div class="gallery-item reveal">
-                        <img src="images/sweets.jpg"
-                            alt="حلويات متنوعة"
-                            loading="lazy">
-                    </div>
-
-                    <div class="gallery-item reveal">
-                        <img src="images/sweets box.jpg"
-                            alt="بوكس حلويات"
-                            loading="lazy">
-                    </div>
-
-                    <div class="gallery-item gallery-wide reveal">
-                        <img src="images/storefront.jpg"
-                            alt="محلات حلا بابا كنافة"
-                            loading="lazy">
-                    </div>
-
-                </div>
+                <iframe
+                    src="https://www.google.com/maps?q=32.262767,35.857691&hl=ar&z=16&output=embed"
+                    loading="lazy"
+                    allowfullscreen
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
 
             </div>
 
-        </section>
+        </div>
+
+    </div>
+
+</section>
 
 
-        <!-- =========================
-             CTA
-        ========================== -->
+<!-- =====================================================
+     FOOTER
+===================================================== -->
 
-        <section class="cta-section">
+<footer class="footer">
 
-            <div class="cta-overlay"></div>
+    <div class="container">
 
-            <div class="container">
-
-                <div class="cta-content reveal">
-
-                    <span class="section-label">
-                        جاهز تطلب؟
-                    </span>
-
-                    <h2>
-                        خلّي الحلا
-                        <span>يوصل لعندك</span>
-                    </h2>
-
-                    <p>
-                        تواصل معنا عبر واتساب للاستفسار
-                        عن الطلبات والتفاصيل.
-                    </p>
-
-                    <a href="https://wa.me/962786279818?text=مرحباً حلا بابا كنافة، أريد الاستفسار عن الطلب."
-                        target="_blank"
-                        class="btn btn-primary btn-large">
-
-                        <i class="fa-brands fa-whatsapp"></i>
-                        تواصل عبر واتساب
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-             CONTACT
-        ========================== -->
-
-        <section class="section contact" id="contact">
-
-            <div class="container">
-
-                <div class="contact-grid">
-
-                    <div class="contact-content reveal">
-
-                        <span class="section-label">
-                            <i class="fa-solid fa-location-dot"></i>
-                            تواصل معنا
-                        </span>
-
-                        <h2>
-                            نحن بانتظار
-                            <span>طلبك</span>
-                        </h2>
-
-                        <p>
-                            للاستفسار عن المنتجات والطلبات،
-                            تواصل معنا مباشرة.
-                        </p>
-
-
-                        <div class="contact-list">
-
-                            <a href="tel:0786279818"
-                                class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fa-solid fa-phone"></i>
-                                </div>
-
-                                <div>
-                                    <span>الهاتف</span>
-                                    <strong dir="ltr">
-                                        0786279818
-                                    </strong>
-                                </div>
-
-                            </a>
-
-
-                            <a href="https://wa.me/962786279818"
-                                target="_blank"
-                                class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fa-brands fa-whatsapp"></i>
-                                </div>
-
-                                <div>
-                                    <span>واتساب</span>
-                                    <strong>
-                                        تواصل معنا مباشرة
-                                    </strong>
-                                </div>
-
-                            </a>
-
-
-                            <div class="contact-item">
-
-                                <div class="contact-icon">
-                                    <i class="fa-solid fa-location-dot"></i>
-                                </div>
-
-                                <div>
-                                    <span>الموقع</span>
-                                    <strong>
-                                        جرش - الأردن
-                                    </strong>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                    <div class="contact-image reveal">
-
-                        <img src="images/storefront.jpg"
-                            alt="محلات حلا بابا كنافة"
-                            loading="lazy">
-
-                        <div class="contact-image-overlay">
-
-                            <i class="fa-solid fa-location-dot"></i>
-
-                            <span>
-                                حلا بابا كنافة
-                            </span>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- =========================
-         FOOTER
-    ========================== -->
-
-    <footer class="footer">
-
-        <div class="container footer-container">
+        <div class="footer-top">
 
             <div class="footer-brand">
 
-                <a href="#home" class="logo">
-                    <span class="logo-main">حلا بابا</span>
-                    <span class="logo-sub">كنافة</span>
-                </a>
+                <span class="footer-logo">
+                    حلا بابا
+                </span>
 
                 <p>
-                    الحلا الحقيقي يبدأ من هنا.
+                    كنافة وحلويات
+                    <br>
+                    بطعم يستحق التجربة.
                 </p>
 
             </div>
@@ -926,9 +1070,13 @@
             <div class="footer-links">
 
                 <a href="#home">الرئيسية</a>
-                <a href="#about">من نحن</a>
-                <a href="#products">منتجاتنا</a>
-                <a href="#gallery">الصور</a>
+
+                <a href="#about">عنّا</a>
+
+                <a href="#products">حلوياتنا</a>
+
+                <a href="#gallery">المعرض</a>
+
                 <a href="#contact">تواصل معنا</a>
 
             </div>
@@ -936,18 +1084,13 @@
 
             <div class="footer-social">
 
-                <a href="https://wa.me/962786279818"
-                    target="_blank"
-                    aria-label="واتساب">
+                <span>تواصل معنا</span>
+
+                <a
+                    href="https://wa.me/962786279818"
+                    target="_blank">
 
                     <i class="fa-brands fa-whatsapp"></i>
-
-                </a>
-
-                <a href="tel:0786279818"
-                    aria-label="اتصال">
-
-                    <i class="fa-solid fa-phone"></i>
 
                 </a>
 
@@ -958,265 +1101,205 @@
 
         <div class="footer-bottom">
 
-            <p>
-                © 2026 حلا بابا كنافة - جميع الحقوق محفوظة
-            </p>
+            <span>
+                © 2026 حلا بابا كنافة
+            </span>
+
+            <span>
+                جميع الحقوق محفوظة
+            </span>
 
         </div>
 
-    </footer>
-
-
-    <!-- =========================
-         FLOATING WHATSAPP
-    ========================== -->
-
-    <a href="https://wa.me/962786279818?text=مرحباً حلا بابا كنافة، أريد الاستفسار عن الطلب."
-        class="floating-whatsapp"
-        target="_blank"
-        aria-label="تواصل عبر واتساب">
-
-        <span class="whatsapp-tooltip">
-            اطلب الآن عبر واتساب
-        </span>
-
-        <i class="fa-brands fa-whatsapp"></i>
-
-    </a>
-
-
-    <!-- =========================
-         LIGHTBOX
-    ========================== -->
-
-    <div class="lightbox" id="lightbox">
-
-        <button class="lightbox-close"
-            id="lightboxClose"
-            aria-label="إغلاق">
-
-            <i class="fa-solid fa-xmark"></i>
-
-        </button>
-
-        <img id="lightboxImage"
-            src=""
-            alt="صورة مكبرة">
-
     </div>
 
+</footer>
 
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
 
-    <script>
+<!-- =====================================================
+     FLOATING WHATSAPP
+===================================================== -->
 
-        /* Header */
+<a
+    href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الحلويات"
+    target="_blank"
+    class="floating-whatsapp"
+    aria-label="واتساب">
 
-        const header = document.getElementById("header");
+    <i class="fa-brands fa-whatsapp"></i>
 
-        window.addEventListener("scroll", () => {
+    <span>
+        تواصل معنا
+    </span>
 
-            if (window.scrollY > 50) {
-                header.classList.add("scrolled");
-            } else {
-                header.classList.remove("scrolled");
+</a>
+
+
+<!-- =====================================================
+     LIGHTBOX
+===================================================== -->
+
+<div class="lightbox" id="lightbox">
+
+    <button id="lightboxClose">
+        <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <img id="lightboxImage" src="" alt="">
+
+</div>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+===================================================== -->
+
+<script>
+
+const header = document.getElementById("header");
+
+window.addEventListener("scroll", () => {
+
+    if (window.scrollY > 50) {
+        header.classList.add("scrolled");
+    } else {
+        header.classList.remove("scrolled");
+    }
+
+});
+
+
+const menuBtn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
+
+menuBtn.addEventListener("click", () => {
+
+    nav.classList.toggle("active");
+
+    const icon = menuBtn.querySelector("i");
+
+    if (nav.classList.contains("active")) {
+
+        icon.classList.remove("fa-bars");
+        icon.classList.add("fa-xmark");
+
+    } else {
+
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+
+    }
+
+});
+
+
+document.querySelectorAll(".nav a").forEach(link => {
+
+    link.addEventListener("click", () => {
+
+        nav.classList.remove("active");
+
+        const icon = menuBtn.querySelector("i");
+
+        icon.classList.remove("fa-xmark");
+        icon.classList.add("fa-bars");
+
+    });
+
+});
+
+
+const revealElements =
+    document.querySelectorAll(".reveal");
+
+const observer =
+    new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+                observer.unobserve(entry.target);
+
             }
 
         });
 
+    }, {
+        threshold: 0.12
+    });
 
-        /* Mobile Menu */
 
-        const menuToggle =
-            document.getElementById("menuToggle");
+revealElements.forEach(element => {
 
-        const nav =
-            document.getElementById("nav");
+    observer.observe(element);
 
-        menuToggle.addEventListener("click", () => {
+});
 
-            nav.classList.toggle("open");
 
-            const icon =
-                menuToggle.querySelector("i");
+/* Gallery Lightbox */
 
-            if (nav.classList.contains("open")) {
+const galleryImages =
+    document.querySelectorAll(".gallery-item img");
 
-                icon.classList.remove("fa-bars");
-                icon.classList.add("fa-xmark");
+const lightbox =
+    document.getElementById("lightbox");
 
-            } else {
+const lightboxImage =
+    document.getElementById("lightboxImage");
 
-                icon.classList.remove("fa-xmark");
-                icon.classList.add("fa-bars");
+const lightboxClose =
+    document.getElementById("lightboxClose");
 
-            }
 
-        });
+galleryImages.forEach(image => {
 
+    image.addEventListener("click", () => {
 
-        document.querySelectorAll(".nav-link")
-            .forEach(link => {
+        lightboxImage.src = image.src;
+        lightboxImage.alt = image.alt;
 
-                link.addEventListener("click", () => {
+        lightbox.classList.add("active");
 
-                    nav.classList.remove("open");
+        document.body.style.overflow = "hidden";
 
-                    const icon =
-                        menuToggle.querySelector("i");
+    });
 
-                    icon.classList.remove("fa-xmark");
-                    icon.classList.add("fa-bars");
+});
 
-                });
 
-            });
+function closeLightbox() {
 
+    lightbox.classList.remove("active");
 
-        /* Reveal on Scroll */
+    document.body.style.overflow = "";
 
-        const revealElements =
-            document.querySelectorAll(".reveal");
+}
 
-        const revealObserver =
-            new IntersectionObserver(
-                (entries) => {
 
-                    entries.forEach(entry => {
+lightboxClose.addEventListener("click", closeLightbox);
 
-                        if (entry.isIntersecting) {
 
-                            entry.target.classList.add("show");
+lightbox.addEventListener("click", event => {
 
-                            revealObserver
-                                .unobserve(entry.target);
+    if (event.target === lightbox) {
+        closeLightbox();
+    }
 
-                        }
+});
 
-                    });
 
-                },
-                {
-                    threshold: 0.12
-                }
-            );
+document.addEventListener("keydown", event => {
 
+    if (event.key === "Escape") {
+        closeLightbox();
+    }
 
-        revealElements.forEach(element => {
+});
 
-            revealObserver.observe(element);
-
-        });
-
-
-        /* Gallery Lightbox */
-
-        const galleryItems =
-            document.querySelectorAll(".gallery-item img");
-
-        const lightbox =
-            document.getElementById("lightbox");
-
-        const lightboxImage =
-            document.getElementById("lightboxImage");
-
-        const lightboxClose =
-            document.getElementById("lightboxClose");
-
-
-        galleryItems.forEach(image => {
-
-            image.addEventListener("click", () => {
-
-                lightboxImage.src = image.src;
-
-                lightbox.classList.add("active");
-
-                document.body.classList.add("no-scroll");
-
-            });
-
-        });
-
-
-        function closeLightbox() {
-
-            lightbox.classList.remove("active");
-
-            document.body.classList.remove("no-scroll");
-
-        }
-
-
-        lightboxClose.addEventListener(
-            "click",
-            closeLightbox
-        );
-
-
-        lightbox.addEventListener("click", (event) => {
-
-            if (event.target === lightbox) {
-                closeLightbox();
-            }
-
-        });
-
-
-        document.addEventListener("keydown", (event) => {
-
-            if (event.key === "Escape") {
-                closeLightbox();
-            }
-
-        });
-
-
-        /* Active Navigation */
-
-        const sections =
-            document.querySelectorAll("section[id]");
-
-        const navLinks =
-            document.querySelectorAll(".nav-link");
-
-
-        window.addEventListener("scroll", () => {
-
-            let current = "";
-
-            sections.forEach(section => {
-
-                const sectionTop =
-                    section.offsetTop - 180;
-
-                if (window.scrollY >= sectionTop) {
-                    current = section.getAttribute("id");
-                }
-
-            });
-
-
-            navLinks.forEach(link => {
-
-                link.classList.remove("active");
-
-                if (
-                    link.getAttribute("href") ===
-                    "#" + current
-                ) {
-
-                    link.classList.add("active");
-
-                }
-
-            });
-
-        });
-
-    </script>
+</script>
 
 </body>
 
