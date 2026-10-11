@@ -2,9 +2,11 @@
 <html lang="ar" dir="rtl">
 
 <head>
+
     <meta charset="UTF-8">
 
-    <meta name="google-site-verification" content="6jxbqvMyPEgX5SWOFr3UVp2IcP9GNl1c0wMRyeElgqw" />
+    <meta name="google-site-verification"
+        content="6jxbqvMyPEgX5SWOFr3UVp2IcP9GNl1c0wMRyeElgqw" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -30,13 +32,13 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- =====================================================
-     HEADER
-===================================================== -->
+
+<!-- ================= HEADER ================= -->
 
 <header class="header" id="header">
 
@@ -88,9 +90,7 @@
 </header>
 
 
-<!-- =====================================================
-     HERO
-===================================================== -->
+<!-- ================= HERO ================= -->
 
 <section class="hero" id="home">
 
@@ -234,11 +234,9 @@
 </section>
 
 
-<!-- =====================================================
-     INTRO
-===================================================== -->
+<!-- ================= ABOUT ================= -->
 
-<section class="intro section" id="about">
+<section class="about section" id="about">
 
     <div class="container">
 
@@ -249,7 +247,7 @@
                 <div class="image-frame">
 
                     <img
-                        src="images/sweets.jpg"
+                        src="images/hero (2).jpg"
                         alt="حلويات حلا بابا">
 
                 </div>
@@ -315,11 +313,9 @@
 </section>
 
 
-<!-- =====================================================
-     FEATURE STRIP
-===================================================== -->
+<!-- ================= FEATURES ================= -->
 
-<section class="feature-strip">
+<section class="features section">
 
     <div class="container feature-grid">
 
@@ -336,6 +332,7 @@
 
         </div>
 
+
         <div class="feature-item reveal">
 
             <div class="feature-icon">
@@ -349,6 +346,7 @@
 
         </div>
 
+
         <div class="feature-item reveal">
 
             <div class="feature-icon">
@@ -361,6 +359,7 @@
             </div>
 
         </div>
+
 
         <div class="feature-item reveal">
 
@@ -380,9 +379,7 @@
 </section>
 
 
-<!-- =====================================================
-     PRODUCTS
-===================================================== -->
+<!-- ================= PRODUCTS ================= -->
 
 <section class="products section" id="products">
 
@@ -410,317 +407,683 @@
         <div class="products-grid">
 
 
-            <article class="product-card reveal">
+            <!-- 01 عش البلبل -->
 
-                <div class="product-image">
+<article class="product-card reveal">
 
-                    <img
-                        src="images/knafeh dish.jpg"
-                        alt="كنافة">
+    <div class="product-body">
 
-                    <span class="product-number">
-                        01
-                    </span>
+        <button class="product-toggle" type="button">
 
-                </div>
+            <span class="product-number">
+                01
+            </span>
 
-                <div class="product-body">
+            <span class="product-title">
+                <h3>عش البلبل</h3>
+            </span>
 
-                    <div class="product-title">
+            <i class="fa-solid fa-chevron-down"></i>
 
-                        <h3>كنافة</h3>
+        </button>
 
-                        <span>مميز</span>
 
-                    </div>
+        <div class="product-options">
 
-                    <p>
-                        كنافة بطعم غني وشكل شهي،
-                        مناسبة للجلسات والمناسبات.
-                    </p>
+            <!-- بالمكسرات -->
+            <button type="button"
+                onclick="orderProduct('عش البلبل - بالمكسرات')">
 
-                    <div class="product-footer">
+                <img
+                    src="images/bulbul-nest-nuts.jpg"
+                    alt="عش البلبل بالمكسرات">
 
-                        <small>حسب الطلب</small>
+                <span>بالمكسرات</span>
 
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الكنافة"
-                            target="_blank">
+            </button>
 
-                            اطلب
 
-                            <i class="fa-solid fa-arrow-left"></i>
+            <!-- نوتيلا -->
+            <button type="button"
+                onclick="orderProduct('عش البلبل - نوتيلا')">
 
-                        </a>
+                <img
+                    src="images/bulbul-nest-nutella.jpg"
+                    alt="عش البلبل نوتيلا">
 
-                    </div>
+                <span>نوتيلا</span>
 
-                </div>
+            </button>
 
-            </article>
 
+            <!-- بستاشيو -->
+            <button type="button"
+                onclick="orderProduct('عش البلبل - بستاشيو')">
 
-            <article class="product-card reveal">
+                <img
+                    src="images/bulbul-nest-pestachio.jpg"
+                    alt="عش البلبل بستاشيو">
 
-                <div class="product-image">
+                <span>بستاشيو</span>
 
-                    <img
-                        src="images/baklawa.jpg"
-                        alt="بقلاوة">
+            </button>
 
-                    <span class="product-number">
-                        02
-                    </span>
 
-                </div>
+            <!-- قشطة -->
+            <button type="button"
+                onclick="orderProduct('عش البلبل - قشطة')">
 
-                <div class="product-body">
+                <img
+                    src="images/bulbul-nest-cream.jpg"
+                    alt="عش البلبل بالقشطة">
 
-                    <div class="product-title">
+                    <span>قشطة<span>
 
-                        <h3>بقلاوة</h3>
 
-                        <span>شرقي</span>
-
-                    </div>
-
-                    <p>
-                        تشكيلة من الحلويات الشرقية
-                        لمحبي الطعم الغني.
-                    </p>
-
-                    <div class="product-footer">
-
-                        <small>حسب الطلب</small>
-
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن البقلاوة"
-                            target="_blank">
-
-                            اطلب
-
-                            <i class="fa-solid fa-arrow-left"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <article class="product-card reveal">
-
-                <div class="product-image">
-
-                    <img
-                        src="images/sweets.jpg"
-                        alt="تشكيلة حلويات">
-
-                    <span class="product-number">
-                        03
-                    </span>
-
-                </div>
-
-                <div class="product-body">
-
-                    <div class="product-title">
-
-                        <h3>تشكيلة حلويات</h3>
-
-                        <span>متنوع</span>
-
-                    </div>
-
-                    <p>
-                        تشكيلة متنوعة تناسب الزيارات
-                        والتجمعات والمناسبات.
-                    </p>
-
-                    <div class="product-footer">
-
-                        <small>حسب الطلب</small>
-
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن تشكيلة الحلويات"
-                            target="_blank">
-
-                            اطلب
-
-                            <i class="fa-solid fa-arrow-left"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <article class="product-card reveal">
-
-                <div class="product-image">
-
-                    <img
-                        src="images/sweets box.jpg"
-                        alt="بوكس حلويات">
-
-                    <span class="product-number">
-                        04
-                    </span>
-
-                </div>
-
-                <div class="product-body">
-
-                    <div class="product-title">
-
-                        <h3>بوكس حلويات</h3>
-
-                        <span>هدية</span>
-
-                    </div>
-
-                    <p>
-                        بوكس مرتب وجميل للهدايا
-                        والزيارات والمناسبات.
-                    </p>
-
-                    <div class="product-footer">
-
-                        <small>حسب الطلب</small>
-
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن بوكس الحلويات"
-                            target="_blank">
-
-                            اطلب
-
-                            <i class="fa-solid fa-arrow-left"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <article class="product-card reveal">
-
-                <div class="product-image">
-
-                    <img
-                        src="images/turkish cake.jpg"
-                        alt="كيك تركي">
-
-                    <span class="product-number">
-                        05
-                    </span>
-
-                </div>
-
-                <div class="product-body">
-
-                    <div class="product-title">
-
-                        <h3>كيك تركي</h3>
-
-                        <span>مميز</span>
-
-                    </div>
-
-                    <p>
-                        خيار جميل لمحبي الكيك
-                        والحلويات الناعمة.
-                    </p>
-
-                    <div class="product-footer">
-
-                        <small>حسب الطلب</small>
-
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الكيك التركي"
-                            target="_blank">
-
-                            اطلب
-
-                            <i class="fa-solid fa-arrow-left"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
-
-
-            <article class="product-card reveal">
-
-                <div class="product-image">
-
-                    <img
-                        src="images/knafeh.jpg"
-                        alt="صينية كنافة">
-
-                    <span class="product-number">
-                        06
-                    </span>
-
-                </div>
-
-                <div class="product-body">
-
-                    <div class="product-title">
-
-                        <h3>صينية كنافة</h3>
-
-                        <span>للمناسبات</span>
-
-                    </div>
-
-                    <p>
-                        خيار مناسب للتجمعات والمناسبات
-                        والطلبات الكبيرة.
-                    </p>
-
-                    <div class="product-footer">
-
-                        <small>حسب الطلب</small>
-
-                        <a
-                            href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن صينية الكنافة"
-                            target="_blank">
-
-                            اطلب
-
-                            <i class="fa-solid fa-arrow-left"></i>
-
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </article>
+            </button>
 
         </div>
 
     </div>
 
+</article>
+
+
+            <!-- 02 هريسة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">02</span>
+
+            <span class="product-title">
+                <h3>هريسة</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <div class="product-options">
+
+            <button type="button"
+                onclick="orderProduct('هريسة - هريسة')">
+                <img src="images/hre.jpg" alt="هريسة">
+                <span>هريسة</span>
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('هريسة - شامية')">
+                <img src="images/sha.jpg" alt="هريسة شامية">
+                <span>شامية</span>
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('هريسة - لوتس')">
+                <img src="images/lut.jpg" alt="هريسة لوتس">
+                <span>لوتس</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+            <!-- 03 بسبوسة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">03</span>
+
+            <span class="product-title">
+                <h3>بسبوسة</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <div class="product-options">
+
+            <button type="button"
+                onclick="orderProduct('بسبوسة - عادية')">
+                <img src="images/bsb.jpg" alt="بسبوسة عادية">
+                <span>عادية</span>
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('بسبوسة - قشطة')">
+                <img src="images/pg.jpg" alt="بسبوسة بالقشطة">
+                <span>قشطة</span>
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+            <!-- 04 حلاوة بالجبنة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">04</span>
+
+            <span class="product-title">
+                <img src="images/hbg.jpg" alt="حلاوة الجبن">
+                <h3>حلاوة بالجبنة</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <button type="button"
+            onclick="orderProduct('حلاوة بالجبنة')">
+            اطلب الآن
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 05 كب كيك كاسات -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">05</span>
+
+            <span class="product-title">
+                <img src="images/cub.jpg" alt="كب كيك كاسات">
+                <h3>كب كيك كاسات</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <button type="button"
+            onclick="orderProduct('كب كيك كاسات')">
+            اطلب الآن
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 06 قشطوطة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">06</span>
+
+            <span class="product-title">
+                <img src="images/kk.jpg" alt="قشطوطة">
+                <h3>قشطوطة</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <button type="button"
+            onclick="orderProduct('قشطوطة')">
+            اطلب الآن
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 07 قوالب كيك -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">07</span>
+
+            <span class="product-title">
+                <img src="images/cak.jpg" alt="قوالب كيك">
+                <h3>قوالب كيك</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <div class="product-options">
+
+            <button type="button"
+                onclick="orderProduct('قوالب كيك - كبير')">
+                كبير
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('قوالب كيك - وسط')">
+                وسط
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('قوالب كيك - صغير')">
+                صغير
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+            <!-- 08 وربات -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">08</span>
+
+            <span class="product-title">
+                <img src="images/orb.jpg" alt="وربات">
+                <h3>وربات</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+        <div class="product-options">
+
+            <button type="button"
+                onclick="orderProduct('وربات - بالقشطة')">
+                بالقشطة
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('وربات - بالمكسرات')">
+                بالمكسرات
+            </button>
+
+            <button type="button"
+                onclick="orderProduct('وربات - لبنانية')">
+                لبنانية
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+
+            <!-- 09 المبرومة -->
+
+<article class="product-card single-product reveal">
+
+    <div class="product-body">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('مبرومة')">
+
+            <div class="product-number">
+                09
+            </div>
+
+            <div class="product-title">
+
+                <img
+                    src="images/mbroma.jpg"
+                    alt="مبرومة حلا بابا كنافة">
+
+                <div>
+                    <h3>مبرومة</h3>
+                    <span>حسب الطلب</span>
+                </div>
+
+            </div>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 10 كنافة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button class="product-toggle" type="button">
+
+            <span class="product-number">
+                10
+            </span>
+
+            <span class="product-title">
+                <h3>كنافة</h3>
+            </span>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+        </button>
+
+
+        <div class="product-options">
+
+            <!-- الكنافة الناعمة -->
+            <button type="button"
+                onclick="orderProduct('كنافة - ناعمة')">
+
+                <img
+                    src="images/kunafa-1.jpg"
+                    alt="كنافة ناعمة">
+
+                <span>ناعمة</span>
+
+            </button>
+
+
+            <!-- الكنافة الخشنة -->
+            <button type="button"
+                onclick="orderProduct('كنافة - خشنة')">
+
+                <img
+                    src="images/kunafa-2.jpg"
+                    alt="كنافة خشنة">
+
+                <span>خشنة</span>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+            <!-- 11 برازق -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('برازق')">
+
+            <span class="product-number">
+                11
+            </span>
+
+            <span class="product-title">
+
+                <img
+                    src="images/brazeg.jpg"
+                    alt="برازق حلا بابا كنافة">
+
+                <h3>برازق</h3>
+
+            </span>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 12 غريبة -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('غريبة')">
+
+            <span class="product-number">
+                12
+            </span>
+
+            <span class="product-title">
+
+                <img
+                    src="images/grib.jpg"
+                    alt="غريبة حلا بابا كنافة">
+
+                <h3>غريبة</h3>
+
+            </span>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
+
+           <!-- 13 معمول -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('معمول')">
+
+            <span class="product-number">
+                13
+            </span>
+
+            <span class="product-title">
+
+                <img
+                    src="images/m.jpg"
+                    alt="معمول حلا بابا كنافة">
+
+                <h3>معمول</h3>
+
+            </span>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 14 بيتيفور -->
+
+<article class="product-card reveal">
+
+    <div class="product-body">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('بيتيفور')">
+
+            <span class="product-number">
+                14
+            </span>
+
+            <span class="product-title">
+
+                <img
+                    src="images/p.jpg"
+                    alt="بيتيفور حلا بابا كنافة">
+
+                <h3>بيتيفور</h3>
+
+            </span>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
+
+            <!-- 15 عش الصراير -->
+
+            <article class="product-card reveal">
+
+                <div class="product-body">
+
+                    <button
+                        class="product-toggle single-product"
+                        type="button"
+                        onclick="orderProduct('عش الصراير')">
+
+                        <span class="product-number">
+                            15
+                        </span>
+
+                        <span class="product-title">
+                            <h3>عش الصراير</h3>
+                        </span>
+
+                        <span class="product-order">
+                            اطلب
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- البقلاوة -->
+
+<article class="product-card reveal single-product">
+
+    <div class="product-body">
+
+        <div class="product-toggle">
+
+            <span class="product-number">16
+            </span>
+
+            <span class="product-title">
+                <img src="images/bgl.jpg" alt="بقلاوة">
+                <h3>بقلاوة</h3>
+            </span>
+
+        </div>
+
+    </div>
+
+</article>
+
+        </div>
+
+    </div>
+
+    <!-- 16 كيكة تركية -->
+
+<article class="product-card reveal single-product">
+
+    <div class="product-body">
+
+        <div class="product-toggle">
+
+        <button
+            type="button"
+            class="product-toggle single-product"
+            onclick="orderProduct('كيكة تركية')">
+
+            <span class="product-number">
+                17
+            </span>
+
+            <span class="product-title">
+
+                <img
+                    src="images/turkish cake.jpg"
+                    alt="كيكة تركية حلا بابا كنافة">
+
+                <h3>كيكة تركية</h3>
+
+            </span>
+
+            <span class="product-order">
+                اطلب
+            </span>
+
+        </button>
+
+    </div>
+
+</article>
+
 </section>
 
 
-<!-- =====================================================
-     GOLD CTA
-===================================================== -->
+<!-- ================= GOLD CTA ================= -->
 
-<section class="gold-cta">
+<section class="gold-cta section">
 
     <div class="container">
 
@@ -757,9 +1120,7 @@
 </section>
 
 
-<!-- =====================================================
-     GALLERY
-===================================================== -->
+<!-- ================= GALLERY ================= -->
 
 <section class="gallery section" id="gallery">
 
@@ -869,9 +1230,7 @@
 </section>
 
 
-<!-- =====================================================
-     CONTACT
-===================================================== -->
+<!-- ================= CONTACT ================= -->
 
 <section class="contact section" id="contact">
 
@@ -1044,9 +1403,7 @@
 </section>
 
 
-<!-- =====================================================
-     FOOTER
-===================================================== -->
+<!-- ================= FOOTER ================= -->
 
 <footer class="footer">
 
@@ -1118,15 +1475,13 @@
 </footer>
 
 
-<!-- =====================================================
-     FLOATING WHATSAPP
-===================================================== -->
+<!-- ================= FLOATING WHATSAPP ================= -->
 
 <a
-    href="https://wa.me/962786279818?text=مرحباً، أريد الاستفسار عن الحلويات"
+    href="https://wa.me/962786279818"
     target="_blank"
     class="floating-whatsapp"
-    aria-label="واتساب">
+    aria-label="تواصل عبر واتساب">
 
     <i class="fa-brands fa-whatsapp"></i>
 
@@ -1137,171 +1492,267 @@
 </a>
 
 
-<!-- =====================================================
-     LIGHTBOX
-===================================================== -->
+<!-- ================= LIGHTBOX ================= -->
 
 <div class="lightbox" id="lightbox">
 
     <button id="lightboxClose">
+
         <i class="fa-solid fa-xmark"></i>
+
     </button>
 
-    <img id="lightboxImage" src="" alt="">
+    <img
+        id="lightboxImage"
+        src=""
+        alt="">
 
 </div>
 
 
-<!-- =====================================================
-     JAVASCRIPT
-===================================================== -->
+<!-- ================= JAVASCRIPT ================= -->
 
 <script>
 
-const header = document.getElementById("header");
-
-window.addEventListener("scroll", () => {
-
-    if (window.scrollY > 50) {
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
-    }
-
-});
+document.addEventListener("DOMContentLoaded", function () {
 
 
-const menuBtn = document.getElementById("menuBtn");
-const nav = document.getElementById("nav");
+    /* ================= HEADER ================= */
 
-menuBtn.addEventListener("click", () => {
+    const header = document.getElementById("header");
 
-    nav.classList.toggle("active");
+    window.addEventListener("scroll", function () {
 
-    const icon = menuBtn.querySelector("i");
+        if (window.scrollY > 40) {
 
-    if (nav.classList.contains("active")) {
+            header.classList.add("scrolled");
 
-        icon.classList.remove("fa-bars");
-        icon.classList.add("fa-xmark");
+        } else {
 
-    } else {
+            header.classList.remove("scrolled");
 
-        icon.classList.remove("fa-xmark");
-        icon.classList.add("fa-bars");
-
-    }
-
-});
-
-
-document.querySelectorAll(".nav a").forEach(link => {
-
-    link.addEventListener("click", () => {
-
-        nav.classList.remove("active");
-
-        const icon = menuBtn.querySelector("i");
-
-        icon.classList.remove("fa-xmark");
-        icon.classList.add("fa-bars");
+        }
 
     });
 
-});
+
+    /* ================= MOBILE MENU ================= */
+
+    const menuBtn = document.getElementById("menuBtn");
+    const nav = document.getElementById("nav");
+
+    if (menuBtn && nav) {
+
+        menuBtn.addEventListener("click", function () {
+
+            nav.classList.toggle("active");
+
+        });
 
 
-const revealElements =
-    document.querySelectorAll(".reveal");
+        nav.querySelectorAll("a").forEach(function (link) {
 
-const observer =
-    new IntersectionObserver((entries) => {
+            link.addEventListener("click", function () {
 
-        entries.forEach(entry => {
+                nav.classList.remove("active");
 
-            if (entry.isIntersecting) {
+            });
 
-                entry.target.classList.add("show");
+        });
 
-                observer.unobserve(entry.target);
+    }
+
+
+    /* ================= PRODUCT DROPDOWN ================= */
+
+    const productToggles =
+        document.querySelectorAll(
+            ".product-toggle:not(.single-product)"
+        );
+
+
+    productToggles.forEach(function (toggle) {
+
+        toggle.addEventListener("click", function () {
+
+            const card =
+                this.closest(".product-card");
+
+            if (!card) return;
+
+
+            const isOpen =
+                card.classList.contains("open");
+
+
+            /* إغلاق جميع الأصناف الأخرى */
+
+            document
+                .querySelectorAll(".product-card.open")
+                .forEach(function (otherCard) {
+
+                    otherCard.classList.remove("open");
+
+                });
+
+
+            /* فتح الصنف الذي ضغط عليه */
+
+            if (!isOpen) {
+
+                card.classList.add("open");
 
             }
 
         });
 
-    }, {
-        threshold: 0.12
     });
 
 
-revealElements.forEach(element => {
+    /* ================= REVEAL ================= */
 
-    observer.observe(element);
+    const revealElements =
+        document.querySelectorAll(".reveal");
+
+
+    const revealObserver =
+        new IntersectionObserver(
+
+            function (entries, observer) {
+
+                entries.forEach(function (entry) {
+
+                    if (entry.isIntersecting) {
+
+                        entry.target.classList.add("active");
+
+                        observer.unobserve(entry.target);
+
+                    }
+
+                });
+
+            },
+
+            {
+                threshold: 0.12
+            }
+
+        );
+
+
+    revealElements.forEach(function (element) {
+
+        revealObserver.observe(element);
+
+    });
+
+
+    /* ================= GALLERY LIGHTBOX ================= */
+
+    const galleryImages =
+        document.querySelectorAll(".gallery-item img");
+
+    const lightbox =
+        document.getElementById("lightbox");
+
+    const lightboxImage =
+        document.getElementById("lightboxImage");
+
+    const lightboxClose =
+        document.getElementById("lightboxClose");
+
+
+    galleryImages.forEach(function (image) {
+
+        image.addEventListener("click", function () {
+
+            lightboxImage.src = this.src;
+
+            lightboxImage.alt = this.alt;
+
+            lightbox.classList.add("active");
+
+        });
+
+    });
+
+
+    function closeLightbox() {
+
+        lightbox.classList.remove("active");
+
+        lightboxImage.src = "";
+
+    }
+
+
+    if (lightboxClose) {
+
+        lightboxClose.addEventListener(
+            "click",
+            closeLightbox
+        );
+
+    }
+
+
+    if (lightbox) {
+
+        lightbox.addEventListener(
+            "click",
+            function (event) {
+
+                if (event.target === lightbox) {
+
+                    closeLightbox();
+
+                }
+
+            }
+        );
+
+    }
+
+
+    document.addEventListener(
+        "keydown",
+        function (event) {
+
+            if (event.key === "Escape") {
+
+                closeLightbox();
+
+            }
+
+        }
+    );
 
 });
 
 
-/* Gallery Lightbox */
+/* ================= WHATSAPP ORDER ================= */
 
-const galleryImages =
-    document.querySelectorAll(".gallery-item img");
+function orderProduct(productName) {
 
-const lightbox =
-    document.getElementById("lightbox");
+    const phone = "962786279818";
 
-const lightboxImage =
-    document.getElementById("lightboxImage");
+    const message =
+        "مرحباً، أريد الاستفسار عن: " +
+        productName;
 
-const lightboxClose =
-    document.getElementById("lightboxClose");
+    const url =
+        "https://wa.me/" +
+        phone +
+        "?text=" +
+        encodeURIComponent(message);
 
-
-galleryImages.forEach(image => {
-
-    image.addEventListener("click", () => {
-
-        lightboxImage.src = image.src;
-        lightboxImage.alt = image.alt;
-
-        lightbox.classList.add("active");
-
-        document.body.style.overflow = "hidden";
-
-    });
-
-});
-
-
-function closeLightbox() {
-
-    lightbox.classList.remove("active");
-
-    document.body.style.overflow = "";
+    window.open(url, "_blank");
 
 }
 
-
-lightboxClose.addEventListener("click", closeLightbox);
-
-
-lightbox.addEventListener("click", event => {
-
-    if (event.target === lightbox) {
-        closeLightbox();
-    }
-
-});
-
-
-document.addEventListener("keydown", event => {
-
-    if (event.key === "Escape") {
-        closeLightbox();
-    }
-
-});
-
 </script>
+
 
 </body>
 
